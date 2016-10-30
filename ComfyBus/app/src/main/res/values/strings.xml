@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ComfyBus</string>
+    <string name="reminder_topapp_setting">Cài đặt</string>
+    <string name="reminder_list_journey_btnAddnew">Nhắc nhở</string>
+    <string name="FindList">Lấy danh sách chuyến đi</string>
+    <string name="StartPlace">Điểm đi:</string>
+    <string name="EndPlace">Điểm đến:</string>
+    <string name="CreateReminderTitle">Tạo nhắc nhở</string>
+    <string name="ListOfRoutesTitlte">Danh sách tuyến đi</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

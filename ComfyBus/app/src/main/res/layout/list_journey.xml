@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6">
+        <LinearLayout
+            android:id="@+id/list_journey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"></LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary">
+        <Button
+            android:id="@+id/btn_AddNew"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/reminder_list_journey_btnAddnew"
+            android:layout_gravity="center_horizontal"
+            android:onClick="onBtnClick"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

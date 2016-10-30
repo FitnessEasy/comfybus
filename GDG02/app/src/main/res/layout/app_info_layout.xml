@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Tên ứng dụng: "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textSize="18dp"
+            android:id="@+id/masoty" />
+        <TextView
+            android:text="COMFYBUS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:id="@+id/textmaotuy"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Phiên bản: "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/textViewTentuyen" />
+        <TextView
+            android:text="1.0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:id="@+id/textTeuyen"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Nhóm thực hiện: "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textSize="18dp"
+            android:id="@+id/masotuy" />
+        <TextView
+            android:text="Sinh viên trường đại học công nghệ thông tin - Đại học quốc gia thành phố Hồ Chí Minh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:id="@+id/textmasotuy"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Thông tin dữ liệu: "
+            android:layout_width="match_parent"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/textViewThoigianchuyen" />
+        <TextView
+            android:text="Trung tâm quản lý và điều hành vận tải hành khách công cộng - Sở giao thông vận tải thành phố Hồ Chí Minh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:id="@+id/textThoigiantuyen"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Thời gian thực hiện: "
+            android:layout_width="match_parent"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/textewThochuyen" />
+        <TextView
+            android:text="Năm 2016"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:id="@+id/texantuyen"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Tình trạng: "
+            android:layout_width="match_parent"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/textewThoigianchuyen" />
+        <TextView
+            android:text="Còn cập nhật"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:id="@+id/textThoiantuyen"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
